@@ -1,0 +1,24 @@
+{
+  "cities": {
+    "New York": {
+      "coordinates": [40.7128, -74.006],
+      "distance_from_NYC": 0
+    },
+    "Los Angeles": {
+      "coordinates": [34.0522, -118.2437],
+      "distance_from_NYC": 2445
+    },
+    "Chicago": {
+      "coordinates": [41.8781, -87.6298],
+      "distance_from_NYC": 713
+    },
+    "Houston": {
+      "coordinates": [29.7604, -95.3698],
+      "distance_from_NYC": 1420
+    },
+    "Phoenix": {
+      "coordinates": [33.4484, -112.074],
+      "distance_from_NYC": 2145
+    }
+  }
+}
