@@ -1,6 +1,6 @@
 # Database Interaction and Transaction Exercises
 
-This README.md file provides a step-by-step guide to exercises based on the topic of Database Interaction and Transaction. 
+Here you are provided a step-by-step guide to exercises based on the topic of Database Interaction and Transaction. 
 
 ## Exercise 1: Role-play Exercise
 
