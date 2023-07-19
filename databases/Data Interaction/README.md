@@ -1,63 +1,57 @@
-# Database Interaction and Transaction Exercises
+# Database Interaction and Transaction Exercises - Solutions
 
-This README.md file provides a step-by-step guide to exercises based on the topic of Database Interaction and Transaction. 
+Here we provide solutions and explanations for the exercises based on the topic of Database Interaction and Transaction.
 
 ## Exercise 1: Role-play Exercise
 
-**Objective:** Understand the different roles interacting with a database.
+**Solution:**
 
-**Steps:**
+The solution to this exercise will vary depending on the creativity and understanding of the participants. However, each role should interact with the database as follows:
 
-1. Divide the participants into four groups. Each group will represent one of the following roles: Application Developer, End User, Data Analyst, Database Administrator.
-
-2. Each group will research and discuss how their assigned role interacts with a database.
-
-3. Each group will then present a role-play demonstrating their role's interaction with a database. They should explain the actions they are taking and why these actions are relevant to their role.
+- Application Developer: Demonstrates creating an application that interacts with the database, possibly showing how they would embed SQL commands into the application code.
+- End User: Demonstrates using an application to access and possibly update data in the database.
+- Data Analyst: Demonstrates using SQL commands to view and manipulate data in the database.
+- Database Administrator: Demonstrates managing the database and tables, possibly showing how they would use SQL commands to ensure the consistency, quality, and security of the database.
 
 ## Exercise 2: SQL Command Exercise
 
-**Objective:** Practice writing SQL commands for direct database interaction.
+**Solution:**
 
-**Steps:**
+The solution to this exercise will depend on the specific scenarios given. However, here are some examples of SQL commands a Data Analyst or Database Administrator might use:
 
-1. Each participant will be given a scenario that a Data Analyst or Database Administrator might encounter.
-
-2. Participants will write SQL commands that would be used to address the scenario.
-
-3. Participants will then share and discuss their commands, explaining why they chose those specific commands.
+- SELECT * FROM Employees; (This command selects all data from the Employees table)
+- UPDATE Employees SET Salary = 50000 WHERE EmployeeID = 1; (This command updates the salary of the employee with an ID of 1 to 50000)
 
 ## Exercise 3: Interaction Model Exercise
 
-**Objective:** Understand the different models of database interaction.
+**Solution:**
 
-**Steps:**
+The solution to this exercise will depend on the understanding and creativity of the participants. However, each model should be explained as follows:
 
-1. Participants will be divided into three groups. Each group will be assigned one of the following models: client-server model, embedded application code model, and three-tier application with a web application model.
-
-2. Each group will draw a diagram of their assigned model, labeling each part of the model.
-
-3. Each group will then explain how data flows through their model, using their diagram as a visual aid.
+- Client-Server Model: The client application sends a request to the server over the network. The server processes the request and sends the response back to the client.
+- Embedded Application Code Model: The application developer embeds SQL commands into the application code. The application then interacts with the database using these commands.
+- Three-Tier Application with Web Application Model: The user interacts with the web application, which sends requests to the application server. The application server then interacts with the database server, which processes the requests and sends the responses back to the application server.
 
 ## Exercise 4: Transaction State Exercise
 
-**Objective:** Understand the different states of a database transaction.
+**Solution:**
 
-**Steps:**
+The solution to this exercise will depend on the specific scenarios given. However, here are some examples of how to identify the state of a transaction:
 
-1. Each participant will be given a series of scenarios involving database transactions.
-
-2. Participants will identify the state of the transaction (Active, Partially Committed, Failed, Aborted, Committed) in each scenario.
-
-3. Participants will then share and discuss their answers, explaining why they identified each transaction as being in the state they chose.
+- Active: The transaction has started and is in progress.
+- Partially Committed: The final statement has been executed, but the transaction has not yet been committed.
+- Failed: The system has found that the transaction cannot proceed due to some error.
+- Aborted: The transaction has been rolled back and the database has been returned to its state before the transaction began.
+- Committed: The changes have been saved and the transaction is considered successful.
 
 ## Exercise 5: Case Study
 
-**Objective:** Apply knowledge of database interaction models to a real-world scenario.
+**Solution:**
 
-**Steps:**
+The solution to this exercise will depend on the specific case study given. However, the participants should consider the following when choosing a database interaction model:
 
-1. Participants will be given a case study of a company that needs to integrate its database across different departments.
-
-2. Participants will suggest the best type of database interaction model for this company.
-
-3. Participants will then justify their choice, explaining why they believe their chosen model is the best fit for the company in the case study.
+- The size and complexity of the company.
+- The number of departments that need to access the database.
+- The level of database expertise among the employees.
+- The need for real-time data access and updates.
+- The security requirements of the company.
