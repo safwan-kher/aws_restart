@@ -101,5 +101,5 @@ Hint:
 ```sql
 DELETE FROM Students WHERE ID = 2;
 ```
-```
+
 These exercises cover the basic operations in SQL: creating tables, inserting data, querying data, updating data, and deleting data. They also introduce the concept of primary keys.
