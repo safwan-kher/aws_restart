@@ -1,4 +1,4 @@
-Sure, here are 10 exercises for beginners to practice creating tables, inserting data, and querying data in SQL. 
+Here are 10 exercises for beginners to practice creating tables, inserting data, and querying data in SQL. 
 
 ```markdown
 # SQL Exercises
