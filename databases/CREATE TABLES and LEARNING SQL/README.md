@@ -48,4 +48,3 @@ Create the 'Customers' and 'Orders' tables:
 
 
 
-Remember to replace the foreign key constraint name (`FK_Orders_Customers`) with the actual name in your database.
