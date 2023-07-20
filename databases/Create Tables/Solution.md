@@ -1,7 +1,5 @@
-Here are 10 exercises for beginners to practice creating tables, inserting data, and querying data in SQL. 
 
-```markdown
-# SQL Exercises
+# SQL Exercises - Solution
 
 ## Exercise 1: Creating a Table
 Create a table named 'Books' with the following columns: 'ID', 'Title', 'Author', 'PublicationYear', and 'Price'.
