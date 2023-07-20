@@ -1,6 +1,6 @@
 Here are 10 exercises for beginners to practice creating tables, inserting data, and querying data in SQL. 
 
-```markdown
+
 # SQL Exercises
 
 ## Exercise 1: Creating a Table
